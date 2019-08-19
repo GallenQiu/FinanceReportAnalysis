@@ -1,0 +1,643 @@
+<html class="gr__localhost"><head><meta charset="utf-8">
+</head><body data-gr-c-s-loaded="true"><div class="financial-reports">
+
+  <div class="pt-4 pt-md-6 pb-3">
+    <div class="row">
+      <div class="col-12 col-lg-9">
+        <h2 class="financial-reports__title">{sname}({scode})近12个月财务分析报告</h2>
+      </div>
+
+    </div>
+  </div>
+  <div class="financial-reports__content">
+    <h3 class="financial-reports__content-title" id="roe"></h3>
+
+    <div>
+    {sname} 近 12 个月 ROE 为 <a class="wiki-terms">{roe_12}%</a>
+</div>
+
+    <blockquote class="my-4"><a class="wiki-terms">{nprofit}%（净利率）</a> x <a class="wiki-terms">{turn_zzc} 次/年（总资产周转率）</a> x <a class="wiki-terms">{leverage} 倍（杠杆倍数）</a> = <a class="wiki-terms">{roe_12}%（ROE）</a></blockquote>
+    <div>
+    {sname} 2014 ~ 2019 年的 ROE 从 {roe_2014}% 改变至 {roe_12}%
+</div>
+
+    <div>
+    主要原因为【<a class="wiki-terms">{reason_dupunt}</a>】的改变。
+</div>
+
+    <h5 class="mt-6"><a class="industry-reports">【{t_kind}】行业</a></h5>
+
+<table class="table w-auto">
+  <thead>
+    <tr>
+      <th scope="col-md-1"></th>
+        <th scope="col">{sname}</th>
+        <th scope="col">{t_kind}行业中位数</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="row">
+          ROE
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                45.0,39.4,32.0,26.4,24.4,33.0,34.5,37.8
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 0.5 4.571428571428571 2.366666666666667 9.142857142857142 4.833333333333332 13.714285714285714 6.699999999999999 18.285714285714285 7.366666666666667 22.857142857142854 4.5 27.428571428571427 4 32 2.9000000000000004 32 15.5"></polygon><polyline fill="none" points="0 0.5 4.571428571428571 2.366666666666667 9.142857142857142 4.833333333333332 13.714285714285714 6.699999999999999 18.285714285714285 7.366666666666667 22.857142857142854 4.5 27.428571428571427 4 32 2.9000000000000004" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow">{roe_12}%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow">{roe_mid}%</a>
+          </td>
+      </tr>
+  </tbody>
+</table>
+
+<hr class="border-custom">
+
+    <h3 class="financial-reports__content-title" id="profitable">盈利状况 ({score_profit}/100)</h3>
+
+    <div>
+    {sname}的毛利率 <a class="wiki-terms">{gross_profit_rate}%</a>
+      <span class="text-muted small">（{comment_gpr}）</span>
+</div>
+
+    <div>
+    {sname}的净利率 <a class="wiki-terms">{net_profit_rate}%</a>
+      <span class="text-muted small">（comment_npr）</span>
+</div>
+
+    <div>
+    {sname}每股税后赚到了 <a class="wiki-terms">{eps}元</a>
+</div>
+
+    <blockquote class="my-4">目前以 1043.33 元 投资贵州茅台，预估 33 年<a class="wiki-terms" href="/terms/600519/pe_ratio">（P/E）</a>会回本，年化为 3.01%（E/P）。</blockquote>
+    <h5 class="mt-6"><a class="industry-reports" href="/cn_industries/181/reports">【白酒】行业</a></h5>
+
+<table class="table w-auto">
+  <thead>
+    <tr>
+      <th scope="col-md-1"></th>
+        <th scope="col">贵州茅台</th>
+        <th scope="col">白酒行业中位数</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="row">
+          毛利率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                92.3,92.9,92.6,92.2,91.2,89.8,91.1,91.6
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 0.5968783638320794 4.571428571428571 0.5 9.142857142857142 0.5484391819160415 13.714285714285714 0.6130247578040908 18.285714285714285 0.7744886975242196 22.857142857142854 1.0005382131324012 27.428571428571427 0.7906350914962346 32 0.7099031216361684 32 15.5"></polygon><polyline fill="none" points="0 0.5968783638320794 4.571428571428571 0.5 9.142857142857142 0.5484391819160415 13.714285714285714 0.6130247578040908 18.285714285714285 0.7744886975242196 22.857142857142854 1.0005382131324012 27.428571428571427 0.7906350914962346 32 0.7099031216361684" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/gross_margin_ratio">91.6%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">72.7%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          净利率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                53.0,51.6,51.5,50.4,46.1,49.8,51.4,52.8
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 0.5 4.571428571428571 0.8962264150943398 9.142857142857142 0.9245283018867916 13.714285714285714 1.235849056603774 18.285714285714285 2.452830188679245 22.857142857142854 1.4056603773584921 27.428571428571427 0.9528301886792452 32 0.5566037735849054 32 15.5"></polygon><polyline fill="none" points="0 0.5 4.571428571428571 0.8962264150943398 9.142857142857142 0.9245283018867916 13.714285714285714 1.235849056603774 18.285714285714285 2.452830188679245 22.857142857142854 1.4056603773584921 27.428571428571427 0.9528301886792452 32 0.5566037735849054" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/net_profit_ratio">52.8%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">20.3%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          营业利润率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                71.2,70.5,70.0,67.8,62.4,66.9,69.7,71.3
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 0.5210378681626917 4.571428571428571 0.6683029453015426 9.142857142857142 0.7734922861150064 13.714285714285714 1.2363253856942489 18.285714285714285 2.3723702664796633 22.857142857142854 1.4256661991584831 27.428571428571427 0.8366058906030833 32 0.5 32 15.5"></polygon><polyline fill="none" points="0 0.5210378681626917 4.571428571428571 0.6683029453015426 9.142857142857142 0.7734922861150064 13.714285714285714 1.2363253856942489 18.285714285714285 2.3723702664796633 22.857142857142854 1.4256661991584831 27.428571428571427 0.8366058906030833 32 0.5" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/operating_profit_ratio">71.3%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">26.7%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          营业费用率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                11.4,13.8,15.6,16.0,15.0,13.1,10.7,10.0
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 4.8125 4.571428571428571 2.5625 9.142857142857142 0.875 13.714285714285714 0.5 18.285714285714285 1.4375 22.857142857142854 3.21875 27.428571428571427 5.46875 32 6.125 32 15.5"></polygon><polyline fill="none" points="0 4.8125 4.571428571428571 2.5625 9.142857142857142 0.875 13.714285714285714 0.5 18.285714285714285 1.4375 22.857142857142854 3.21875 27.428571428571427 5.46875 32 6.125" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/scale_charges_ratio">10.0%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">24.7%</a>
+          </td>
+      </tr>
+  </tbody>
+</table>
+
+<hr class="border-custom">
+
+    <h3 class="financial-reports__content-title" id="operation">营运状况 (60.0/100)</h3>
+
+    <div>
+    贵州茅台的总资产周转率为 <a class="wiki-terms" href="/terms/600519/t_assets_turnover_ratio">0.54 次/年</a>
+      <span class="text-muted small">（重资产,周转很慢）</span>
+</div>
+
+    <div>
+    贵州茅台的总资产里面有 <a class="wiki-terms" href="/terms/600519/tnca_ratio">13.7%</a> 是固定资产
+      <span class="text-muted small"></span>
+    <a class="wiki-terms" href="/terms/600519/tca_ratio">86.3%</a> 是流动资产
+      <span class="text-muted small"></span>
+    有 <a class="wiki-terms" href="/terms/600519/inventories_ratio">14.5%</a> 是存货
+      <span class="text-muted small">（存货有点多）</span>
+    有 <a class="wiki-terms" href="/terms/600519/receiv_ratio">0.4%</a> 是应收帐款
+      <span class="text-muted small">（几乎等于收现金）</span>
+</div>
+
+    <div>
+    贵州茅台的存货库存天数是 <a class="wiki-terms" href="/terms/600519/inventories_turnover_date">1254.0 天</a>
+      <span class="text-muted small">（下降趋势 2433.33 =&gt; 1258.62）</span>
+    应收帐款天数是 <a class="wiki-terms" href="/terms/600519/receivable_turnover_date">3.2 天</a>
+      <span class="text-muted small">（持平）</span>
+</div>
+
+    <blockquote class="my-4">做一轮生意需要 1257.2 天 = <a class="wiki-terms" href="/terms/600519/inventories_turnover_date">1254.0 天</a>（存货库存天数）+ <a class="wiki-terms" href="/terms/600519/receivable_turnover_date">3.2 天</a>（应收帐款天数）= <a class="wiki-terms" href="/terms/600519/receivable_turnover_date">1257.2 天</a>（完整生意周期）。</blockquote>
+    <h5 class="mt-6"><a class="industry-reports" href="/cn_industries/181/reports">【白酒】行业</a></h5>
+
+<table class="table w-auto">
+  <thead>
+    <tr>
+      <th scope="col-md-1"></th>
+        <th scope="col">贵州茅台</th>
+        <th scope="col">白酒行业中位数</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="row">
+          总资产周转率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                0.66,0.62,0.52,0.43,0.39,0.47,0.5,0.54
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 0.5 4.571428571428571 1.40909090909091 9.142857142857142 3.6818181818181817 13.714285714285714 5.727272727272728 18.285714285714285 6.636363636363637 22.857142857142854 4.81818181818182 27.428571428571427 4.136363636363637 32 3.2272727272727266 32 15.5"></polygon><polyline fill="none" points="0 0.5 4.571428571428571 1.40909090909091 9.142857142857142 3.6818181818181817 13.714285714285714 5.727272727272728 18.285714285714285 6.636363636363637 22.857142857142854 4.81818181818182 27.428571428571427 4.136363636363637 32 3.2272727272727266" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/t_assets_turnover_ratio">0.54 次/年</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">0.58次/年</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          固定资产
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                19.5,24.4,27.8,24.7,20.1,16.6,13.8,13.7
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 4.978417266187051 4.571428571428571 2.3345323741007213 9.142857142857142 0.5 13.714285714285714 2.172661870503598 18.285714285714285 4.654676258992804 22.857142857142854 6.543165467625899 27.428571428571427 8.053956834532373 32 8.107913669064748 32 15.5"></polygon><polyline fill="none" points="0 4.978417266187051 4.571428571428571 2.3345323741007213 9.142857142857142 0.5 13.714285714285714 2.172661870503598 18.285714285714285 4.654676258992804 22.857142857142854 6.543165467625899 27.428571428571427 8.053956834532373 32 8.107913669064748" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/tnca_ratio">13.7%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">26.2%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          流动资产
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                80.5,75.6,72.2,75.3,79.9,83.4,86.2,86.3
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 1.5081112398609502 4.571428571428571 2.3597914252607186 9.142857142857142 2.950753186558515 13.714285714285714 2.411935110081112 18.285714285714285 1.6123986095017369 22.857142857142854 1.0040556199304742 27.428571428571427 0.5173812282734644 32 0.5 32 15.5"></polygon><polyline fill="none" points="0 1.5081112398609502 4.571428571428571 2.3597914252607186 9.142857142857142 2.950753186558515 13.714285714285714 2.411935110081112 18.285714285714285 1.6123986095017369 22.857142857142854 1.0040556199304742 27.428571428571427 0.5173812282734644 32 0.5" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/tca_ratio">86.3%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">73.8%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          存货
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                21.5,21.3,22.7,20.9,18.3,16.4,14.7,14.5
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 1.2929515418502202 4.571428571428571 1.42511013215859 9.142857142857142 0.5 13.714285714285714 1.6894273127753312 18.285714285714285 3.4074889867841396 22.857142857142854 4.6629955947136565 27.428571428571427 5.786343612334802 32 5.918502202643172 32 15.5"></polygon><polyline fill="none" points="0 1.2929515418502202 4.571428571428571 1.42511013215859 9.142857142857142 0.5 13.714285714285714 1.6894273127753312 18.285714285714285 3.4074889867841396 22.857142857142854 4.6629955947136565 27.428571428571427 5.786343612334802 32 5.918502202643172" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/inventories_ratio">14.5%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">24.6%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          应收帐款
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                0.5,0.5,2.8,9.9,0.7,0.9,0.4,0.4
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 14.742424242424242 4.571428571428571 14.742424242424242 9.142857142857142 11.257575757575758 13.714285714285714 0.5 18.285714285714285 14.43939393939394 22.857142857142854 14.136363636363637 27.428571428571427 14.893939393939394 32 14.893939393939394 32 15.5"></polygon><polyline fill="none" points="0 14.742424242424242 4.571428571428571 14.742424242424242 9.142857142857142 11.257575757575758 13.714285714285714 0.5 18.285714285714285 14.43939393939394 22.857142857142854 14.136363636363637 27.428571428571427 14.893939393939394 32 14.893939393939394" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/receiv_ratio">0.4%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">4.6%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          存货库存天数
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                1504.5,1788.7,2093.0,2372.3,2067.7,1311.2,1274.8,1254.0
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 5.987080048897695 4.571428571428571 4.190089786283355 9.142857142857142 2.2660076718796116 13.714285714285714 0.5 18.285714285714285 2.4259790077140355 22.857142857142854 7.20931163849429 27.428571428571427 7.439468026809427 32 7.570985962989505 32 15.5"></polygon><polyline fill="none" points="0 5.987080048897695 4.571428571428571 4.190089786283355 9.142857142857142 2.2660076718796116 13.714285714285714 0.5 18.285714285714285 2.4259790077140355 22.857142857142854 7.20931163849429 27.428571428571427 7.439468026809427 32 7.570985962989505" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/inventories_turnover_date">1254.0 天</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">397.33天</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          应收帐款天数
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                3.3,3.1,12.4,58.3,44.1,6.4,4.4,3.2
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 14.650943396226415 4.571428571428571 14.702401372212693 9.142857142857142 12.30960548885077 13.714285714285714 0.5 18.285714285714285 4.153516295025728 22.857142857142854 13.853344768439108 27.428571428571427 14.367924528301886 32 14.676672384219554 32 15.5"></polygon><polyline fill="none" points="0 14.650943396226415 4.571428571428571 14.702401372212693 9.142857142857142 12.30960548885077 13.714285714285714 0.5 18.285714285714285 4.153516295025728 22.857142857142854 13.853344768439108 27.428571428571427 14.367924528301886 32 14.676672384219554" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/receivable_turnover_date">3.2 天</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">26.95天</a>
+          </td>
+      </tr>
+  </tbody>
+</table>
+
+<hr class="border-custom">
+
+    <h3 class="financial-reports__content-title" id="leverage">杠杆状况 (90.0/100)</h3>
+
+    <div>
+    贵州茅台的杠杆倍数是 <a class="wiki-terms" href="/terms/600519/ae_ratio">1.33 倍</a>
+      <span class="text-muted small">（基本没什么杠杆,看来股东非常看好公司）</span>
+</div>
+
+    <h5 class="mt-6"><a class="industry-reports" href="/cn_industries/181/reports">【白酒】行业</a></h5>
+
+<table class="table w-auto">
+  <thead>
+    <tr>
+      <th scope="col-md-1"></th>
+        <th scope="col">贵州茅台</th>
+        <th scope="col">白酒行业中位数</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="row">
+          权益乘数
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                1.28,1.24,1.19,1.22,1.36,1.41,1.34,1.33
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 1.8829787234042534 4.571428571428571 2.3085106382978715 9.142857142857142 2.840425531914894 13.714285714285714 2.5212765957446805 18.285714285714285 1.031914893617019 22.857142857142854 0.5 27.428571428571427 1.244680851063828 32 1.3510638297872326 32 15.5"></polygon><polyline fill="none" points="0 1.8829787234042534 4.571428571428571 2.3085106382978715 9.142857142857142 2.840425531914894 13.714285714285714 2.5212765957446805 18.285714285714285 1.031914893617019 22.857142857142854 0.5 27.428571428571427 1.244680851063828 32 1.3510638297872326" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/ae_ratio">1.33 倍</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">1.33</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          负债占资产比率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                21.2,20.4,16.0,23.3,32.8,28.7,26.5,27.6
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 5.804878048780488 4.571428571428571 6.170731707317072 9.142857142857142 8.182926829268293 13.714285714285714 4.8445121951219505 18.285714285714285 0.5 22.857142857142854 2.375 27.428571428571427 3.3810975609756095 32 2.878048780487804 32 15.5"></polygon><polyline fill="none" points="0 5.804878048780488 4.571428571428571 6.170731707317072 9.142857142857142 8.182926829268293 13.714285714285714 4.8445121951219505 18.285714285714285 0.5 22.857142857142854 2.375 27.428571428571427 3.3810975609756095 32 2.878048780487804" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/debt_ratio">27.6%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">24.0%</a>
+          </td>
+      </tr>
+  </tbody>
+</table>
+
+<hr class="border-custom">
+
+    <h3 class="financial-reports__content-title" id="debt">偿债能力 (90.0/100)</h3>
+
+    <div>
+    贵州茅台的流动比率是 <a class="wiki-terms" href="/terms/600519/current_ratio">313.7%</a>
+      <span class="text-muted small"></span>
+    速动比率是 <a class="wiki-terms" href="/terms/600519/quick_ratio">256.7%</a>
+      <span class="text-muted small">（即便发生债务纠纷,公司也能立即清偿）</span>
+    利息保障倍数是 <a class="wiki-terms" href="/terms/600519/interest_coverage">5.64 百亿倍</a>
+      <span class="text-muted small">（&gt; 5，结构稳健）</span>
+</div>
+
+    <h5 class="mt-6"><a class="industry-reports" href="/cn_industries/181/reports">【白酒】行业</a></h5>
+
+<table class="table w-auto">
+  <thead>
+    <tr>
+      <th scope="col-md-1"></th>
+        <th scope="col">贵州茅台</th>
+        <th scope="col">白酒行业中位数</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="row">
+          流动比率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                380.3,370.8,451.2,324.2,243.6,291.0,324.9,313.7
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 2.8570478723404253 4.571428571428571 3.1728723404255312 9.142857142857142 0.5 13.714285714285714 4.722074468085106 18.285714285714285 7.401595744680851 22.857142857142854 5.825797872340425 27.428571428571427 4.698803191489361 32 5.071143617021276 32 15.5"></polygon><polyline fill="none" points="0 2.8570478723404253 4.571428571428571 3.1728723404255312 9.142857142857142 0.5 13.714285714285714 4.722074468085106 18.285714285714285 7.401595744680851 22.857142857142854 5.825797872340425 27.428571428571427 4.698803191489361 32 5.071143617021276" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/current_ratio">313.7%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">309.7%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          速动比率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                238.1,228.1,281.9,227.0,183.4,231.6,266.2,256.7
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 2.830613692798863 4.571428571428571 3.362717275629656 9.142857142857142 0.5 13.714285714285714 3.4212486697410416 18.285714285714285 5.741220290883291 22.857142857142854 3.176481021638878 27.428571428571427 1.33540262504434 32 1.8409010287335938 32 15.5"></polygon><polyline fill="none" points="0 2.830613692798863 4.571428571428571 3.362717275629656 9.142857142857142 0.5 13.714285714285714 3.4212486697410416 18.285714285714285 5.741220290883291 22.857142857142854 3.176481021638878 27.428571428571427 1.33540262504434 32 1.8409010287335938" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/quick_ratio">256.7%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">171.5%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          利息保障倍数
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                21759173643.5,21934448160.4,23924705768.6,38684349796.4,50824082238.2,56396558571.5
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 9.712632598162825 6.4 9.66601419058452 12.8 9.13665805823912 19.200000000000003 5.210981278931493 25.6 1.9821320150861261 32 0.5 32 15.5"></polygon><polyline fill="none" points="0 9.712632598162825 6.4 9.66601419058452 12.8 9.13665805823912 19.200000000000003 5.210981278931493 25.6 1.9821320150861261 32 0.5" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/interest_coverage">5.64 百亿倍</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">8.48亿倍</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          负债占资产比率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                21.2,20.4,16.0,23.3,32.8,28.7,26.5,27.6
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 5.804878048780488 4.571428571428571 6.170731707317072 9.142857142857142 8.182926829268293 13.714285714285714 4.8445121951219505 18.285714285714285 0.5 22.857142857142854 2.375 27.428571428571427 3.3810975609756095 32 2.878048780487804 32 15.5"></polygon><polyline fill="none" points="0 5.804878048780488 4.571428571428571 6.170731707317072 9.142857142857142 8.182926829268293 13.714285714285714 4.8445121951219505 18.285714285714285 0.5 22.857142857142854 2.375 27.428571428571427 3.3810975609756095 32 2.878048780487804" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/debt_ratio">27.6%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">24.0%</a>
+          </td>
+      </tr>
+  </tbody>
+</table>
+
+<hr class="border-custom">
+
+    <h3 class="financial-reports__content-title" id="cash_flow">现金流状况 (90.0/100)</h3>
+
+    <div>
+    贵州茅台 2018 年的现金流量比率 <a class="wiki-terms" href="/terms/600519/cashflow_ratio">97.5%</a>
+      <span class="text-muted small"></span>
+    现金流量允当比率 <a class="wiki-terms" href="/terms/600519/cashflow_adequacy_ratio">207.6%</a>
+      <span class="text-muted small"></span>
+    现金再投资比率 <a class="wiki-terms" href="/terms/600519/cash_reinvestment_ratio">21.2%</a>
+      <span class="text-muted small">（现金流状况一般.）</span>
+</div>
+
+    <div>
+    贵州茅台 2018 年的营业现金流 <a class="wiki-terms" href="/terms/600519/ocf">4.14 百亿</a>
+      <span class="text-muted small"></span>
+    投资现金流 <a class="wiki-terms" href="/terms/600519/invest_cash_flow">-16.29 亿</a>
+      <span class="text-muted small"></span>
+    融资现金流 <a class="wiki-terms" href="/terms/600519/finance_cash_flow">-1.64 百亿</a>
+      <span class="text-muted small">（将营业活动赚取的现金用再投资活动和偿还借款上。想必这家公司的营业现金流量宽裕）</span>
+</div>
+
+    <h5 class="mt-6"><a class="industry-reports" href="/cn_industries/181/reports">【白酒】行业</a></h5>
+
+<table class="table w-auto">
+  <thead>
+    <tr>
+      <th scope="col-md-1"></th>
+        <th scope="col">贵州茅台</th>
+        <th scope="col">白酒行业中位数</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="row">
+          现金流量比率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                125.4,121.5,119.8,87.0,101.2,57.4,97.5,105.1
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 0.5 4.571428571428571 0.9665071770334919 9.142857142857142 1.1698564593301448 13.714285714285714 5.093301435406699 18.285714285714285 3.3947368421052637 22.857142857142854 8.633971291866029 27.428571428571427 3.83732057416268 32 2.928229665071772 32 15.5"></polygon><polyline fill="none" points="0 0.5 4.571428571428571 0.9665071770334919 9.142857142857142 1.1698564593301448 13.714285714285714 5.093301435406699 18.285714285714285 3.3947368421052637 22.857142857142854 8.633971291866029 27.428571428571427 3.83732057416268 32 2.928229665071772" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/cashflow_ratio">97.5%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">48.5%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          现金流量允当比率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                137.6,114.5,111.3,119.7,156.6,171.8,207.6
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 5.557803468208093 5.333333333333333 7.226878612716764 10.666666666666666 7.458092485549132 16 6.851156069364162 21.333333333333332 4.184971098265896 26.666666666666664 3.086705202312137 32 0.5 32 15.5"></polygon><polyline fill="none" points="0 5.557803468208093 5.333333333333333 7.226878612716764 10.666666666666666 7.458092485549132 16 6.851156069364162 21.333333333333332 4.184971098265896 26.666666666666664 3.086705202312137 32 0.5" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/cashflow_adequacy_ratio">207.6%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">0.0%</a>
+          </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          现金再投资比率
+        </th>
+          <td>
+              <span class="line" style="display: none;">
+                25.0,13.2,13.5,17.9,38.3,13.8,21.2,21.1
+              </span><svg class="peity" height="16" width="32"><polygon fill="#c6d9fd" points="0 15.5 0 5.7088772845952995 4.571428571428571 10.33028720626632 9.142857142857142 10.212793733681462 13.714285714285714 8.489556135770234 18.285714285714285 0.5 22.857142857142854 10.095300261096606 27.428571428571427 7.197127937336814 32 7.236292428198432 32 15.5"></polygon><polyline fill="none" points="0 5.7088772845952995 4.571428571428571 10.33028720626632 9.142857142857142 10.212793733681462 13.714285714285714 8.489556135770234 18.285714285714285 0.5 22.857142857142854 10.095300261096606 27.428571428571427 7.197127937336814 32 7.236292428198432" stroke="#4d89f9" stroke-width="1" stroke-linecap="square"></polyline></svg>
+              <a class="wiki-terms" target="_blank" rel="noopener noreferrer nofollow" href="/terms/600519/cash_reinvestment_ratio">21.2%</a>
+          </td>
+          <td>
+              <a class="company-terms" target="_blank" rel="noopener noreferrer nofollow" href="/markets/A/cn_industries/181?company_id=426">9.0%</a>
+          </td>
+      </tr>
+  </tbody>
+</table>
+
+<hr class="border-custom">
+
+
+  <div>
+  <h3>总结</h3>
+  <ul class="summary-list">
+      <li>毛利率 91.6%：毛利堪比卖白粉</li>
+      <li>净利率 52.8%：即便是税后,公司也非常赚钱</li>
+      <li>总资产周转率 0.54 次/年：重资产,周转很慢</li>
+      <li>存货占总资产比率 14.5%：存货有点多</li>
+      <li>应收帐款 0.4%：几乎等于收现金</li>
+      <li>杠杆倍数 1.33 倍：基本没什么杠杆,看来股东非常看好公司</li>
+      <li>速动比率 256.7%：即便发生债务纠纷,公司也能立即清偿</li>
+      <li>利息保障倍数 5.64 百亿倍：利息保障倍数 &gt; 5，结构稳健</li>
+      <li>现金与约当现金比率 70.0%：现金超多</li>
+      <li>现金流量比率 97.5%：现金流状况一般.</li>
+      <li>现金流营业 4.14 百亿, 投资 -16.29 亿, 融资 -1.64 百亿：将营业活动赚取的现金用再投资活动和偿还借款上。想必这家公司的营业现金流量宽裕</li>
+      <li>目前以 1043.33 元 投资贵州茅台，预估 33 年<a class="wiki-terms" href="/terms/600519/pe_ratio">（P/E）</a>会回本，年化为 3.01%（E/P）。</li>
+  </ul>
+</div>
+
+
+  <div class="financial-reports-coordinate" id="coordinate">
+    <div class="flex-panel">
+  <div class="coordinate-section">
+    <div class="section-info">
+
+      <h3 class="secondary-title"><span>贵州茅台</span>当前价值评估：<span>中等</span></h3>
+        <a class="link-no-underline" data-toggle="tooltip" data-placement="top" data-title="什么是灯号？点击查看" target="_blank" href="https://caibaoshuo.zendesk.com/hc/zh-cn/articles/360019056773" data-original-title="" title="">
+    <div class="led-box">
+      <div class="led-circle led-yellow"></div>
+      <p class="led-text">中等</p>
+    </div>
+</a>
+    </div>
+    <div class="section-top">
+
+      <div class="table-container">
+        <table class="table table-bordered table-price">
+          <tbody><tr>
+            <td class="td-red td-size">
+</td>
+
+            <td class="td-yellow active td-size align-middle">
+
+      <span>CBS: 94.21 <br>PE: 33.27 </span>
+
+</td>
+
+            <td class="td-yellow td-size">
+</td>
+
+            <td class="td-green td-size">
+</td>
+
+            <td class="td-blue td-size">
+</td>
+
+          </tr>
+          <tr>
+            <td class="td-red td-size">
+</td>
+
+            <td class="td-yellow td-size">
+</td>
+
+            <td class="td-yellow td-size">
+</td>
+
+            <td class="td-green td-size">
+</td>
+
+            <td class="td-green td-size">
+</td>
+
+          </tr>
+          <tr>
+            <td class="td-red td-size">
+</td>
+
+            <td class="td-red td-size">
+</td>
+
+            <td class="td-yellow td-size">
+</td>
+
+            <td class="td-yellow td-size">
+</td>
+
+            <td class="td-yellow td-size">
+</td>
+
+          </tr>
+          <tr>
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+          </tr>
+          <tr>
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+            <td class="td-gray td-size">
+</td>
+
+          </tr>
+        </tbody></table>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<p class="analysis-statement js-pdf-remove">
+  <i class="far fa-exclamation-circle mr-1"></i>以上财务分析结果仅供参考，不构成投资指导与建议 <br>
+</p>
+
+
+  </div>
+</div>
+
+<hr class="border-custom">
+
+
+</div></body></html>

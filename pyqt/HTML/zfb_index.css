@@ -1,0 +1,49 @@
+th {
+    font-size: 1.4rem;
+    text-align: inherit;
+    font-weight: 500;
+    margin: 0;
+    width: auto;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-color: lightblue;
+    border-color: rgb(239, 242, 246);
+    border-top-width: 1px;
+    border-top-style:solid;
+    white-space: nowrap;
+    line-height: 1;
+    vertical-align: middle;
+    border: 0;
+    color: #868e96;
+}
+.sheet-header__title {
+    font-size: 1.9rem;
+
+
+}
+td  {
+    border-color: rgb(239, 242, 246);
+    border-top-width: 1px;
+    border-top-style:solid;
+
+    font-size: 1.4rem;
+    text-align: inherit;
+    /*font-weight: 500;*/
+    margin: 0;
+    width: auto;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+    white-space: nowrap;
+    line-height: 1;
+    vertical-align: middle;
+    border: 0;
+    color: #868e96;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
